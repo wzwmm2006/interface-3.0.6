@@ -258,6 +258,7 @@ const StyledExternalLink = styled(ExternalLink).attrs({
 `
 
 const NETWORK_LABELS: { [chainId in ChainId]?: string } = {
+  [ChainId.ZKSYNC_ERA_TESTNET]: 'zkSync Testnet',
   [ChainId.RINKEBY]: 'Rinkeby',
   [ChainId.ROPSTEN]: 'Ropsten',
   [ChainId.GÖRLI]: 'Görli',

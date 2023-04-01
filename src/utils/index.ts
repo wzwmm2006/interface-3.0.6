@@ -19,8 +19,11 @@ export function isAddress(value: any): string | false {
 
 const ETHERSCAN_PREFIXES: { [chainId in ChainId]: string } = {
   1: '',
-  280: 'goerli.explorer.zksync.io',
-  324: 'explorer.zksync.io'
+  3:'ROPSTEN',
+  4:'RINKEBY',
+  5:'GÖRLI',
+  42:'KOVAN',
+  280: 'goerli.explorer.zksync.io'
 }
 
 export function getEtherscanLink(

@@ -8553,10 +8553,10 @@ inquirer@^7.0.0:
     strip-ansi "^6.0.0"
     through "^2.3.6"
 
-inswap-uniswap-sdk@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/inswap-uniswap-sdk/-/inswap-uniswap-sdk-1.0.0.tgz#cecc771ecd600c94a60444c5c6a0c803dcdd08e5"
-  integrity sha512-gnXMhE1b1a0dmjHLWnqSNk0OLmjDJpOwpLEbItaUnD0tOTskn95rq3vTa32sIXoy9RvjSMCJ3ZVGlYNZGB0nBQ==
+inswap-uniswap-sdk@1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/inswap-uniswap-sdk/-/inswap-uniswap-sdk-1.0.2.tgz#f9ac63618cf50cf8ba48b956d7b15e7692d2a83d"
+  integrity sha512-iQpWEubYDg2tWxHCNofXzkaeDseeSureAyyx5P8TK/xZEcGB7rRZXhva1dd5ZZjCUPGoKM6iP9qtR0GxZ6qYFA==
   dependencies:
     "@uniswap/v2-core" "^1.0.0"
     big.js "^5.2.2"
